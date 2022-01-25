@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billionaire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="  bg-gradient-to-r from-blue-200 to-purple-400">
+    <nav
+      class="bg-gray-800  overflow-hidden flex flex-wrap md:text-4xl items-center justify-around sticky top-0 w-full py-4 md:py-0 px-4 h-16 text-center font-bold text-gray-100"
+    >
+      Spend a thousand coins 🪙
+    </nav>
+
+    <div
+      class=" w-fit bg-white rounded-xl shadow-md text-center my-2 px-4 py-2 max-w-sm mx-auto text-xl sticky top-16 hover:scale-105 duration-75"
+    >
+      You have <span class="font-bold " id="coin">1000</span> coins left
+    </div>
+
+    <div class="w-1/4 mx-auto">
+      <button onclick="return counter()"  class="hidden px-6 py-2.5 bg-gray-800 rounded-xl shadow-md text-gray-100 mx-auto my-1">Click me </button>
+    </div>
+
+    <div class="max-w-full grid-cols-1 grid lg:grid-cols-3 justify-items-center m-4 gap-4">
+      <div class=" w-72 h-auto rounded-xl bg-slate-900 my-4 hover:scale-105 duration-75 text-center">
+        <img class="w-80" src="./kurkure.png"/>
+        <span class="text-slate-100 font-bold text-lg ">Kurkure</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-4 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (10🪙) </button>
+      </div>
+      <div class="  w-72 h-auto rounded-xl bg-slate-900 my-4 hover:scale-105 duration-75 text-center"> 
+        <img class="w-40 mx-auto" src="https://www.freepnglogos.com/uploads/noodles-png/maggi-masala-noodles-maggi-home-17.png"> 
+        <span class="text-slate-100 font-bold text-lg ">Maggi</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-4 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (20🪙) </button>
+      </div>
+      <div class=" w-72 h-auto rounded-xl bg-slate-900 my-4  text-center hover:scale-105 duration-75">
+        <img class="w-48 mx-auto my-2" src="https://demandsforever.com/wp-content/uploads/2020/09/coca-cola-cane-200-ml.png">
+        <span class=" text-slate-100 font-bold text-lg">Can of cola</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-4 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (20🪙) </button>
+      </div>
+      <div class=" w-72 h-auto rounded-xl bg-slate-900 my-4 text-center hover:scale-105 duration-75">
+        <img class="w-48 mx-auto my-6" src="https://www.pngplay.com/wp-content/uploads/2/Burger-Transparent-PNG.png">
+        <span class=" text-slate-100 font-bold text-lg mx-auto">Random burger</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-6 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (90🪙) </button>
+
+      </div>
+      <div class=" w-72 h-auto rounded-xl bg-slate-900 my-1 text-center hover:scale-105 duration-75">
+        <img class="w-60 mx-auto " src="https://i.pinimg.com/originals/9d/01/9b/9d019b018970f2d8d94f6cda445a647e.png">
+        <span class=" text-slate-100 font-bold text-lg mx-auto">Shrek mug</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-4 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (200🪙) </button>
+      </div>
+      <div class=" text-center w-72 h-auto rounded-xl bg-slate-900 my-4 hover:scale-105 duration-75">
+        <img class="h-48 my-4 mx-auto " src="https://www.freepnglogos.com/uploads/pizza-png/pizza-slice-duvet-cover-sale-diane-diederich-22.png">
+        <span class=" text-slate-100 font-bold text-lg mx-auto">Random pizza slice</span>
+        <button class="rounded text-sm block mx-auto px-4 py-2 my-4 font-bold bg-zinc-50  hover:bg-amber-200" onclick="return counter()">Buy (500🪙) </button>
+      </div>
+
+    </div>
+
+    <!-- <div class="w-full bg-slate-600 text-5xl py-0 ">Footer</div> -->
+    <script src="./index.js"></script>
+  </body>
+
+</html>
